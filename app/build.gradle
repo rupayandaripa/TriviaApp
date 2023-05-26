@@ -30,6 +30,19 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    packagingOptions {
+        pickFirst 'android/support/multidex/AndroidManifest.xml'
+        pickFirst 'android/support/multidex/BuildConfig.class'
+        pickFirst 'android/support/multidex/MultiDex$V14.class'
+        pickFirst 'android/support/multidex/MultiDex$V19.class'
+        pickFirst 'android/support/multidex/MultiDex$V4.class'
+        pickFirst 'android/support/multidex/MultiDex.class'
+        pickFirst 'android/support/multidex/MultiDexApplication.class'
+        pickFirst 'android/support/multidex/MultiDexExtractor$1.class'
+        pickFirst 'android/support/multidex/MultiDexExtractor.class'
+        pickFirst 'android/support/multidex/ZipUtil$CentralDirectory.class'
+        pickFirst 'android/support/multidex/ZipUtil.class'
+    }
 
     buildTypes {
         release {
