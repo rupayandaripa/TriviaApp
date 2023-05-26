@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="Arts">Arts</string>
+    <string name="Sports">Sports</string>
+    <string name="Celebrities">Celebrities</string>
+    <string name="Entertainment">Entertainment</string>
+    <string name="Science">Science</string>
+</resources>
